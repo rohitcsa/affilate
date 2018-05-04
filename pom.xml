@@ -8,6 +8,12 @@
   <name>affilate Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -16,6 +22,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>affilate</finalName>
+    <finalName>ROOT</finalName>
   </build>
 </project>
